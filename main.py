@@ -16,6 +16,7 @@ from common.h36m_dataset import Human36mDataset
 from model.block.refine import refine
 from model.strided_transformer import Model
 
+#  powerful library for parsing command-line options
 opt = opts().parse()
 os.environ["CUDA_VISIBLE_DEVICES"] = opt.gpu
 
